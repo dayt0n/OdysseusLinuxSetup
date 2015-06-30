@@ -36,6 +36,7 @@ int main()
             system("sudo apt-get -y install libssl-dev");
             system("sudo apt-get -y install libusb-1.0.0");
             system("sudo apt-get -y install libzip2");
+            system("sudo apt-get -y install usbmuxd automake autoconf libtool pkg-config openssl build-essential libplist++-dev libzip-dev libcurl4-openssl-dev");
             system("clear");
             link("/lib/x86_64-linux-gnu/libssl.so.1.0.0", "/lib/x86_64-linux-gnu/libssl.so.1");
             link("/lib/x86_64-linux-gnu/libcrypto.so.1.0.0", "/lib/x86_64-linux-gnu/libcrypto.so.1");
