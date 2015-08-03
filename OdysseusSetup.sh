@@ -18,4 +18,3 @@ if [[ $userInput = "1" ]]; then
 else
     exit
 fi
-exit
