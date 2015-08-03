@@ -16,5 +16,6 @@ if [[ $userInput = "1" ]]; then
     sudo ln -s/lib/x86_64-linux-gnu/libcrypto.so.1.0.0 /lib/x86_64-linux-gnu/libcrypto.so.1
     echo "Done. Odysseus should be fully configured."
 else
-    exit
+    :
 fi
+exit
